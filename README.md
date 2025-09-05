@@ -1,4 +1,4 @@
-# Portfolio-StateMachine
+# Portfolio-StateMachine(In Development)
 
 English
 
@@ -17,3 +17,5 @@ This system is in development, it will contains the following features:
 -If the player escapes, the enemy will return to patrol area and continue patroling;  
 
 All the codes are in Assets>Scripts;
+
+Playable version: https://lazylionstudio.itch.io/portfolio-state-machine
