@@ -16,4 +16,4 @@ This system is in development, it will contains the following features:
 -The enemy will  start to following the player for a certain amount of time or distance;    
 -If the player escapes, the enemy will return to patrol area and continue patroling;  
 
-All the codes are in Assets/Scripts;
+All the codes are in Assets>Scripts;
