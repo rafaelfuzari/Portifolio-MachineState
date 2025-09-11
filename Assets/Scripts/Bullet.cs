@@ -5,6 +5,7 @@ public class Bullet : MonoBehaviour
     public float force;
     public Rigidbody2D rb;
     public Vector3 dir;
+    public string origin;
     
     void Start()
     {
@@ -30,6 +31,16 @@ public class Bullet : MonoBehaviour
             if (hit.collider.gameObject.CompareTag("Wall"))
             {
                 Debug.Log("acertei uma parede");
+                Destroy(this.gameObject);
+            }
+            if (hit.collider.gameObject.CompareTag("Player") && origin.Equals("enemy")){
+                
+                hit.collider.GetComponent<PlayerControl>().TakeDamage(1);
+                Destroy(this.gameObject);
+            }
+            if (hit.collider.gameObject.CompareTag("Enemy") && origin.Equals("player"))
+            {
+                hit.collider.GetComponent<EnemyControl>().TakeDamage(1);
                 Destroy(this.gameObject);
             }
 

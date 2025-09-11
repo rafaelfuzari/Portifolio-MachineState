@@ -45,8 +45,9 @@ public class GunControl : MonoBehaviour
     {
         //instantianting the bullet
         var projectile = Instantiate(bullet,gunBarrel.transform.position, Quaternion.Euler(0, 0, rotZ - 90));
-       
+        
         projectile.GetComponent<Bullet>().dir = rot;
+        projectile.GetComponent<Bullet>().origin = "player";
         anim.SetTrigger("Shot");
         
     }
