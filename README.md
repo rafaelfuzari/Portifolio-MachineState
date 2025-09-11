@@ -12,6 +12,8 @@ Features:
 -If the player escape the area, the enemy will chase him;  
 -If the player runaway, the enemy will return to patrol;  
 -If during the chase the player hide behind some obstacle, the enemy will go to player's last position and check the area searching for him, if he did not find anything, will return to patrol;  
+
+The enemy vision area is small, and will only detect the player if he is front of him.
     
 All the codes are in Assets>Scripts.  
 
@@ -32,5 +34,8 @@ Características:
 -Se o player fugir, o inimigo vai voltar a patrulhar;  
 -Se durante a perseguição o player se esconder atrás de um obstáculo, o inimigo vai para a última posição do player e checar a área procurando por ele, se não achar nada, vai voltar a patrulhar;  
 
-Todos os códigos estão em Assets>Scripts.    
+A área de visão do inimigo é pequena, e só vai detectar o player se ele estiver na sua frente.  
+
+Todos os códigos estão em Assets>Scripts.   
+
 Versão jogável: https://lazylionstudio.itch.io/portfolio-state-machine   
