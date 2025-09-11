@@ -21,16 +21,16 @@ Playable version: https://lazylionstudio.itch.io/portfolio-state-machine
 
 Português
 
-Sistema de estado de máquina feito no Unity, com os estados: ocioso, andando, alerta, atirando, perseguindo, checando e morto.
-Esse projeto foi feito para demonstrar habilidades de programação em C# e IA.
+Sistema de estado de máquina feito no Unity, com os estados: ocioso, andando, alerta, atirando, perseguindo, checando e morto.  
+Esse projeto foi feito para demonstrar habilidades de programação em C# e IA.  
 
-Características:
--O inimigo vai patrulhar uma área, que é decidida por waypoints;
--Se ele ver o player, vai para o estado de alerta;
--Se o player ficar na area de visão por um segundo, o inimigo vai começar a atirar nele;
--Se o player escapar da área, o inimigo vai perseguir ele;
--Se o player fugir, o inimigo vai voltar a patrulhar;
--Se durante a perseguição o player se esconder atrás de um obstáculo, o inimigo vai para a última posição do player e checar a área procurando por ele, se não achar nada, vai voltar a patrulhar;
+Características:  
+-O inimigo vai patrulhar uma área, que é decidida por waypoints;  
+-Se ele ver o player, vai para o estado de alerta;  
+-Se o player ficar na area de visão por um segundo, o inimigo vai começar a atirar nele;  
+-Se o player escapar da área, o inimigo vai perseguir ele;  
+-Se o player fugir, o inimigo vai voltar a patrulhar;  
+-Se durante a perseguição o player se esconder atrás de um obstáculo, o inimigo vai para a última posição do player e checar a área procurando por ele, se não achar nada, vai voltar a patrulhar;  
 
-Todos os códigos estão em Assets>Scripts.
-Versão jogável: https://lazylionstudio.itch.io/portfolio-state-machine 
+Todos os códigos estão em Assets>Scripts.    
+Versão jogável: https://lazylionstudio.itch.io/portfolio-state-machine   
